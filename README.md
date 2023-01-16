@@ -11,7 +11,12 @@ LWS_NODE_JS_EXPRESS_JS
 ├─ school.js
 ├─ v3
 │  ├─ bigdata.txt
-│  └─ index.js
+│  ├─ example
+│  │  ├─ bigdata.txt
+│  │  └─ index.js
+│  ├─ index.js
+│  ├─ output.txt
+│  └─ readStream.js
 └─ yarn.lock
 
 ```
