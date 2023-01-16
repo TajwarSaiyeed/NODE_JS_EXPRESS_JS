@@ -2,7 +2,7 @@ const EventEmitter = require("events");
 
 class School extends EventEmitter {
   startPeriod() {
-    console.log("period started");
+    // console.log("period started");
 
     // raise an event when bell ring
 

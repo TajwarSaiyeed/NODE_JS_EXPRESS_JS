@@ -36,5 +36,5 @@ const data2 = fs.readFileSync("myFile2.txt");
 // asyce way
 const data3 = fs.readFile("myFile2.txt", (err, data) => {
   if (err) throw err;
-  console.log(data.toString());
+  // console.log(data.toString());
 });
