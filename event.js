@@ -9,4 +9,8 @@ emitter.on("bellRing", () => {
 });
 
 // raise an event
-emitter.emit("bellRing");
+// emitter.emit("bellRing");
+
+setTimeout(() => {
+  emitter.emit("bellRing");
+}, 2000);
