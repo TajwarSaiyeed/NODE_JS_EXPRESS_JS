@@ -1,4 +1,3 @@
-
 ```
 LWS_NODE_JS_EXPRESS_JS
 ├─ .gitignore
@@ -8,7 +7,11 @@ LWS_NODE_JS_EXPRESS_JS
 ├─ myFile.txt
 ├─ myFile2.txt
 ├─ package.json
+├─ README.md
 ├─ school.js
+├─ v3
+│  ├─ bigdata.txt
+│  └─ index.js
 └─ yarn.lock
 
 ```
