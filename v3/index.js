@@ -1,9 +1,10 @@
-// const fs = require("fs");
+const fs = require("fs");
 
-// const ourReadSteam = fs.createReadStream(`${__dirname}/bigdata.txt`, "utf-8");
+const ourReadStream = fs.createReadStream(`${__dirname}/bigdata.txt`);
+const ourWriteStream = fs.createWriteStream(`${__dirname}/output.txt`);
 
-// ourReadSteam.on("data", (data) => {
-//   console.log("data");
-// });
+ourReadStream.on("data", (data) => {
+  ourWriteStream.write(data);
+});
 
 // console.log("hello");
