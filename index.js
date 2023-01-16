@@ -22,6 +22,13 @@ fs.writeFileSync("myFile.txt", "hello world \n");
 // append file
 fs.appendFileSync("myFile.txt", "hello programmers");
 
-// read file // buffer
+// read file
 const data = fs.readFileSync("myFile.txt", "utf-8");
 console.log(data);
+
+// data2 file
+fs.writeFileSync("myFile2.txt", "file 2");
+
+// read file // buffer
+const data2 = fs.readFileSync("myFile2.txt");
+console.log(data2.toString());
