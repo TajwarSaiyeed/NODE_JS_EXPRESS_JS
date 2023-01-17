@@ -3,6 +3,8 @@
  * Decription: Simple node application that print quotes per second interval.
  * Author : Abid [learn from sumit shaha]
  * Date: 17/01/2023
+ *
+ *
  */
 
 // Math object - Module scaffolding
