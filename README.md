@@ -17,6 +17,13 @@ LWS_NODE_JS_EXPRESS_JS
 │  ├─ index.js
 │  ├─ output.txt
 │  └─ readStream.js
+├─ v4
+│  ├─ index.js
+│  └─ lib
+│     ├─ math.js
+│     └─ quotes
+│        ├─ index.js
+│        └─ Quotes.txt
 └─ yarn.lock
 
 ```
